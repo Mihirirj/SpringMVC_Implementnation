@@ -1,0 +1,164 @@
+!SESSION 2024-04-03 14:59:00.919 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-03 14:59:25.160
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M R JAYASENA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 14:59:25.469
+!MESSAGE HTTP Proxy Authentication Required: http://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/luna/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 14:59:25.470
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 14:59:25.512
+!MESSAGE HTTP Proxy Authentication Required: http://download.eclipse.org/technology/m2e/releases/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 14:59:25.512
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 14:59:25.547
+!MESSAGE HTTP Proxy Authentication Required: http://download.jboss.org/jbosstools/updates/development/luna/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 14:59:25.547
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 14:59:25.596
+!MESSAGE HTTP Proxy Authentication Required: http://download.eclipse.org/m2e-wtp/releases/luna/1.1/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 14:59:25.596
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 14:59:25.628
+!MESSAGE HTTP Proxy Authentication Required: http://www.caucho.com/eclipse/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 14:59:25.628
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 14:59:25.664
+!MESSAGE HTTP Proxy Authentication Required: http://download.eclipse.org/technology/m2e/releases/1.5/1.5.0.20140606-0033/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 14:59:25.664
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 14:59:26.113
+!MESSAGE HTTP Proxy Authentication Required: http://download.jboss.org/jbosstools/updates/stable/luna/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 14:59:26.113
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-04-03 15:01:00.199
+!MESSAGE Failure to transfer org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): Failed to transfer http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/maven-metadata.xml. Error code 501, HTTPS Required
+!SESSION 2024-04-03 15:01:54.285 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 15:02:02.348
+!MESSAGE HTTP Proxy Authentication Required: http://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/luna/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 15:02:02.348
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 15:02:02.380
+!MESSAGE HTTP Proxy Authentication Required: http://download.eclipse.org/technology/m2e/releases/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 15:02:02.380
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 15:02:02.412
+!MESSAGE HTTP Proxy Authentication Required: http://download.jboss.org/jbosstools/updates/development/luna/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 15:02:02.413
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 15:02:02.450
+!MESSAGE HTTP Proxy Authentication Required: http://download.eclipse.org/m2e-wtp/releases/luna/1.1/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 15:02:02.450
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 15:02:02.478
+!MESSAGE HTTP Proxy Authentication Required: http://www.caucho.com/eclipse/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 15:02:02.478
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 15:02:02.507
+!MESSAGE HTTP Proxy Authentication Required: http://download.eclipse.org/technology/m2e/releases/1.5/1.5.0.20140606-0033/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 15:02:02.507
+!MESSAGE Proxy Authentication Required
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-03 15:02:02.787
+!MESSAGE HTTP Proxy Authentication Required: http://download.jboss.org/jbosstools/updates/stable/luna/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: Proxy Authentication Required
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:287)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2024-04-03 15:02:02.787
+!MESSAGE Proxy Authentication Required
